@@ -150,6 +150,7 @@ function handleNumber(value)
 
 function handleSymbol(value)
 {
+    console.log(value)
     switch (value) {
         case 'C':
             buffer = "0";
@@ -166,13 +167,14 @@ function handleSymbol(value)
             buffer = "" + initial;
             initial = 0;
             break;
-        case '<--':
+        case '←':
             if (buffer.length === 1)
             {
-                buffer = 0;
+                buffer = "0";
             }
             else
             {
+                console.log(buffer)
                 buffer = buffer.substring(0,buffer.length-1);
             }
             break;
