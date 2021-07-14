@@ -13,11 +13,18 @@ body {
     color: white;
 }
 
-.screen {
+.screen1 {
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: right;
-    padding: 20px 5px;
+    padding: 10px 5px;
+}
+
+.screen {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    padding: 10px 5px;
 }
 
 .calc-button {

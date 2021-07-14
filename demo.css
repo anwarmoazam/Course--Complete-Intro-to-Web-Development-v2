@@ -16,3 +16,28 @@ h1 {
     color: black;
     background-color: blue;
 }
+
+ul {
+    color: brown;
+    list-style: square;
+}
+
+ol {
+    color: darkblue;
+    list-style: lower-roman;
+}
+
+
+.a {
+    background-color: blue   
+    
+}
+
+.sp {
+    color: brown;
+}
+
+.gender {
+    font-weight: bold;
+    
+}

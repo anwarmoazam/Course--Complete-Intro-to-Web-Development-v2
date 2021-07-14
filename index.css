@@ -1,0 +1,56 @@
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: cursive;
+    margin-top: 60px 0;
+}
+
+.story-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-image {
+    width: 100%;
+}
+
+.story-text {
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.quarter {
+    width: 25%;
+    flex-grow: 1;
+}
+
+.half {
+    flex-grow: 2;
+}
+
+.three-quarter{
+    width: 75%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-items {
+    width: 100%;
+    
+}
