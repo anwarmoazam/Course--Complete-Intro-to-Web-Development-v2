@@ -82,3 +82,14 @@ console.log(printTable(num))
 
                         // console.log(me);
                         // console.log(me.location.city)
+
+        function repeat(fn,n)
+        {
+            var result;
+            for (i=0;i<n;i++)
+            {
+                result=fn(result,i);
+            }
+            return result;
+        }
+        console.log(repeat(10,3));

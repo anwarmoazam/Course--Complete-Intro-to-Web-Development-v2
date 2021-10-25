@@ -115,10 +115,13 @@ let result = 0;
 let previousOperator=null;
 var screen = document.querySelector(".screen");
 var screen1 = document.querySelector(".screen1");
-
 document.querySelector(".calc-buttons").addEventListener("click", function(event)
 {
     buttonClick(event.target.innerText);
+    console.log(buffer);
+    console.log(initial);
+    console.log(result);
+    console.log(previousOperator);
 })
 
 function buttonClick(value)
@@ -150,7 +153,7 @@ function handleNumber(value)
 
 function handleSymbol(value)
 {
-    console.log(value)
+    // console.log(value)
     switch (value) {
         case 'C':
             buffer = "0";
@@ -218,7 +221,7 @@ function flushOperation(intBuffer)
         initial /= intBuffer;
     }
 }
-
+console.log(initial);
 function rerender()
 {
     screen.innerText = buffer;
