@@ -38,19 +38,22 @@
 }
 
 .half {
-    flex-grow: 2;
+    width: 50%;
+    flex-grow: 1;
 }
 
 .three-quarter{
     width: 75%;
+    flex-grow: 1;
 }
 
 .nav-list {
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .nav-items {
     width: 100%;
-    
 }
+
